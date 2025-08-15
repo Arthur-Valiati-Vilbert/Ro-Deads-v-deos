@@ -1,0 +1,61 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+header {
+    border-bottom: solid 2px greenyellow;
+    padding: 20px;
+    font-size: 32px;
+    color: greenyellow;
+    font-family: Comic Sans MS;
+}
+
+.chamada {
+    background: rgb(25, 0, 255);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 1.5%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.galeria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.galeria img {
+    opacity: 0.5;
+    height: 200px
+}
+
+.galeria img:hover {
+    opacity: 1.0;
+    border: 1px solid white;
+}
+
+.galeria h2 {
+    color: red;
+}
